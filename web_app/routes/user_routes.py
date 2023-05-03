@@ -9,7 +9,7 @@ user_routes = Blueprint("user_routes", __name__)
 # USER PROFILE
 #
 
-@user_routes.route("/user/profile")
+@user_routes.route("/user-profile")
 @authenticated_route
 def profile():
     print("USER PROFILE...")
@@ -22,7 +22,7 @@ def profile():
 #
 
 
-@user_routes.route("/user/orders/create", methods=["POST"])
+@user_routes.route("/user-orders-create", methods=["POST"])
 @authenticated_route
 def create_order():
     print("CREATE USER ORDER...")
@@ -50,14 +50,14 @@ def create_order():
         }
         service.create_order(new_order)
         flash(f"Order received!", "success")
-        return redirect("/user/orders")
+        return redirect("/user-orders")
     except Exception as err:
         print(err)
         flash(f"Oops, something went wrong: {err}", "warning")
         return redirect("/products")
 
 
-@user_routes.route("/user/orders")
+@user_routes.route("/user-orders")
 @authenticated_route
 def orders():
     print("USER ORDERS...")

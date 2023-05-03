@@ -1,12 +1,12 @@
 
 DEFAULT_PRODUCTS = [
     # see: https://picsum.photos/images
-    {'id': 1, 'name': 'Strawberries', 'description': 'Juicy organic strawberries.', 'price': 4.99, 'url': 'https://picsum.photos/id/1080/360/200'},
-    {'id': 2, 'name': 'Cup of Tea', 'description': 'An individually-prepared tea or coffee of choice.', 'price': 3.49, 'url': 'https://picsum.photos/id/225/360/200'},
-    {'id': 3, 'name': 'Textbook', 'description': 'It has all the answers.', 'price': 129.99, 'url': 'https://picsum.photos/id/24/360/200'},
-    {'id': 4, 'name': 'Online Course', 'description': 'Level up your programming skills.', 'price': 129.99, 'url': 'https://picsum.photos/id/180/360/200'},
-    #{'id': 5, 'name': '________', 'description': '___________.', 'price': 0.99, 'url': '__________'},
-    #{'id': 6, 'name': '________', 'description': '___________.', 'price': 0.99, 'url': '__________'},
+    {'id': 1, 'name': 'Unsweetened Cold Brew $10', 'description': '25 oz Original cold brew coffee, unsweetened', 'price': 10, 'url': 'https://raw.githubusercontent.com/carolinacpe95/cafecito-brews-images/main/Botellas.jpg'},
+    {'id': 2, 'name': 'Sweetened Cold Brew $11', 'description': '25 oz Monkfruit sweetened cold brew', 'price': 11, 'url': 'https://raw.githubusercontent.com/carolinacpe95/cafecito-brews-images/main/Coffee.jpg'},
+    {'id': 3, 'name': 'Carajillo Six Pack $12', 'description': '6 Carajillos to-go. Combination of cold brew and Licor 43 (21+)', 'price': 12, 'url': 'https://github.com/carolinacpe95/cafecito-brews-images/blob/main/Screen%20Shot%202023-05-02%20at%2012.24.28%20PM.png?raw=true'},
+    {'id': 4, 'name': 'Paower Shot Six Pack $15', 'description': '6 Individual Cold Brew bottles to go, unsweetened', 'price': 15, 'url': 'https://raw.githubusercontent.com/carolinacpe95/cafecito-brews-images/main/Screen%20Shot%202023-05-02%20at%2012.23.46%20PM.png'},
+    {'id': 5, 'name': 'Paower Bites $8', 'description': '6 Dark Chocolate, Almond Butter, Cold Brew Infused Bites', 'price': 8, 'url': 'https://raw.githubusercontent.com/carolinacpe95/cafecito-brews-images/main/Screen%20Shot%202023-05-02%20at%2012.20.47%20PM.png'},
+    {'id': 6, 'name': 'Cold Brew Ice Cream $8', 'description': '16 oz Pint of Cold Brew Vanilla Ice Cream', 'price': 8, 'url': 'https://raw.githubusercontent.com/carolinacpe95/cafecito-brews-images/main/IceCream.jpg'},
 ]
 
 
