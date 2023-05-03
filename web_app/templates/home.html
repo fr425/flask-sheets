@@ -2,11 +2,74 @@
 {% set active_page = "home" %}
 
 {% block content %}
+    <section id="hero">
+        <div class="hero-container">
+        <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
+            <ol class="carousel-indicators" id="hero-carousel-indicators"><li data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true"></li><li data-bs-target="#heroCarousel" data-bs-slide-to="1" class=""></li><li data-bs-target="#heroCarousel" data-bs-slide-to="2" class=""></li></ol>
+
+            <div class="carousel-inner" role="listbox">
+
+            <!-- Slide 1 -->
+            <div class="carousel-item active" style="background-image: url(static/img/coffee1.png);">
+                <div class="carousel-container">
+                <div class="carousel-content">
+                    <h2 class="animate__animated animate__fadeInDown"><span>Cafecito</span>Brews</h2>
+                    <p class="animate__animated animate__fadeInUp">Start your day with a smile and a sip of cafecito, the perfect blend to awaken your senses!
+                        </p>
+                    <div>
+                        <a href="/products" class="btn-menu animate__animated animate__fadeInUp scrollto">Our Products</a>
+                        <a href="/about" class="btn-book animate__animated animate__fadeInUp scrollto">About Us</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item" style="background-image: url(static/img/coffee2.png);">
+                <div class="carousel-container">
+                <div class="carousel-content">
+                    <h2 class="animate__animated animate__fadeInDown">Mission</h2>
+                    <p class="animate__animated animate__fadeInUp">At Cafecito, we believe in using the best coffee beans and building direct farmer relationships. Then we take our time…32 hours to be specific. The result? The strongest and smoothest cold brew, without any bitter bite.</p>
+                    <div>
+                        <a href="/products" class="btn-menu animate__animated animate__fadeInUp scrollto">Our Products</a>
+                        <a href="/about" class="btn-book animate__animated animate__fadeInUp scrollto">About Us</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item" style="background-image: url(static/img/coffee3.png);">
+                <div class="carousel-container">
+                <div class="carousel-content">
+                    <h2 class="animate__animated animate__fadeInDown">Vision</h2>
+                    <p class="animate__animated animate__fadeInUp">To be simply the best organically sourced and sustainably packaged cold brew coffee for Salvadorans.</p>
+                    <div>
+                    <a href="/products" class="btn-menu animate__animated animate__fadeInUp scrollto">Our Products</a>
+                    <a href="/about" class="btn-book animate__animated animate__fadeInUp scrollto">About Us</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+            </a>
+
+            <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+            </a>
+
+        </div>
+        </div>
+    </section>
+<!--     
     <h1>Home</h1>
 
     <p class="lead">This is the home page.</p>
 
-    <p>Here is some more info!</p>
+    <p>Here is some more info!</p> -->
 
 {% endblock %}
