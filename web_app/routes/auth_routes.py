@@ -49,7 +49,7 @@ def google_oauth_callback():
         # add user info to the session
         session["current_user"] = user_info
 
-        return redirect("/user/profile")
+        return redirect("/user-profile")
 
     else:
         print("NO USER INFO")
